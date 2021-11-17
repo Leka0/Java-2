@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.purple-div {
+    background-color: purple;
+    height: 400px;
+}
+.header-div {
+    display: flex;
+    height: 80;
+}
+.img-div {
+    position: absolute;
+    left: 16%;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+.nav-list {
+    position: absolute;
+    left: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 30px;
+}
+ul li {
+    margin-left: 15px;
+    padding: 10px;
+    
+}
+.nav-list li:hover {
+    background-color: rgb(105, 6, 92);
+}
+.container-div {
+    width: 708px;
+    margin-left: 600px;
+    margin-top: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.button-div {
+    margin-top: 20px;
+}
+.button-div button {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+}
+.green-div {
+    background-color: green;
+    height: 500px;
+}
+.head-div {
+    width: 540px;
+    margin-left: 680px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-div h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.head-div h1:after {
+    content: '';
+    width: 80px;
+    height: 4px;
+    background: gray;
+    position: absolute;
+    bottom: -4px;
+    left: 240px;
+}
+.services-div {
+    margin-top: 50px;
+    display: flex;
+}
+.contents {
+    width: 250px;
+    margin-left: 150px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contents p {
+    padding-top: 20px;
+}
+.lightgray-div {
+    background-color: lightgray;
+    height: 550px;
+}
+.team {
+    width: 540px;
+    margin-left: 680px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.team h1:after {
+    content: '';
+    width: 80px;
+    height: 4px;
+    background: gray;
+    position: absolute;
+    bottom: -4px;
+    left: 240px;
+}
+.members-div {
+    width: 250px;
+    margin-left: 150px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.members-div p {
+    padding-top: 20px;
+}
+.social-div img{
+    padding-top: 10px;
+    padding-right: 5px;
+    width: 20px;
+}
+.white-div {
+    background-color: white;
+    height: 500px;
+}
+.orange-div {
+    background-color: orange;
+    height: 1000px;
+}.porto-div {
+    width: 550px;
+    margin-left: 150px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+.porto-div p {
+    padding-right: 100px;
+}
+.porto-div img {
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.org-services-div {
+    margin-top: 30px;
+
+}
+#button {
+    display: block;
+    margin-top: 50px;
+    margin-left: 860px;
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    color: white;
+}
+.pink-div {
+    background-color: pink;
+    height: 600px;
+}
+.pink-porto-div {
+    width: 550px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+.pink-porto-div p {
+    padding-right: 100px;
+}
+.pink-porto-div img {
+    float: left;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.pink-porto-div h3 {
+    padding-top: 10px;
+    padding-right: 100px;
+}
